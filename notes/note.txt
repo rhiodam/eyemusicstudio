@@ -1,0 +1,24 @@
+mvn install:install-file -Dfile=C:\ojdbc7.jar -DgroupId=oracle -DartifactId=oracle -Dversion=12.1.0.1 -Dpackaging=jar
+
+Microsoft Windows [Version 6.2.9200]
+(c) 2012 Microsoft Corporation. All rights reserved.
+
+D:\Users\W\Documents\Github\rhiodam\eyemusicstudio>
+D:\Users\W\Documents\Github\rhiodam\eyemusicstudio>mvn install:install-file -Dfile=C:\ojdbc7.jar -DgroupId=oracle -DartifactId=oracle -Dversion=12.1.0.1 -Dpackaging=jar
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.rhiodamuthie:eyemusicstudio >-------------------
+[INFO] Building eyemusicstudio 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install-file (default-cli) @ eyemusicstudio ---
+[INFO] pom.xml not found in ojdbc7.jar
+[INFO] Installing C:\ojdbc7.jar to C:\Users\W\.m2\repository\oracle\oracle\12.1.0.1\oracle-12.1.0.1.jar
+[INFO] Installing C:\Users\W\AppData\Local\Temp\mvninstall7881299338788375012.pom to C:\Users\W\.m2\repository\oracle\oracle\12.1.0.1\oracle-12.1.0.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.425 s
+[INFO] Finished at: 2019-03-04T16:02:10+07:00
+[INFO] ------------------------------------------------------------------------
+
